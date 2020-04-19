@@ -14,8 +14,8 @@ from google.cloud import datastore
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('ZcEY36SPZj3pecV5+D+cYKOYe/YOujm7u7pzR3ZCwfPdD3M/llldxlT8e1/xpqJ0lY5t4jOHaVjyduzOm8hBdYIj0lJglz8Nco2oH7yNvNywInkp7tULDGb/MCe3d7EKwQ7EweXfNREXoavdCoX/egdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('d406e96cae32c0742308db05c033cd79')
+line_bot_api = LineBotApi('')
+handler = WebhookHandler('')
 
 datastore_client = datastore.Client()
 
